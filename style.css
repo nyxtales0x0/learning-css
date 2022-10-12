@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("/beautiful-autumn-leaves-autumn-red-background-sunny-daylight-horizontal.jpg");
+    background-image: url("./beautiful-autumn-leaves-autumn-red-background-sunny-daylight-horizontal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
