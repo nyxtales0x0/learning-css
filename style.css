@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/assets/beautiful-autumn-leaves-autumn-red-background-sunny-daylight-horizontal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.glass {
+    background-color: rgba(58, 58, 58, 0.7);
+    backdrop-filter: blur(100px);
+}
+
+nav {
+    height: 2.3rem;
+    width: 40%;
+    order: 1;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+}
+
+.start-menu {
+    height: 2.3rem;
+    width: 2.3rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(100px);
+}
+
+main {
+    width: 100%;
+    height: 97.3vh;
+    padding: 3rem 5rem;
+    border-radius: 20px;
+}
+
+.window {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.bar {
+    height: 2rem;
+    width: 100%;
+    background-color: rgba(58, 58, 58, 0.7);
+    backdrop-filter: blur(100px);
+    display: flex;
+    flex-flow: row-reverse;
+    padding: 0.2rem 0.4rem;
+    border-radius: 20px;
+}
+
+.red {
+    border-radius: 100%;
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: crimson;
+    margin-left: 0.4rem;
+}
+
+.yellow {
+    border-radius: 100%;
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: rgb(240, 214, 65);
+    margin-left: 0.4rem;
+}
+
+.green {
+    border-radius: 100%;
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: rgb(100, 220, 20);
+    margin-left: 0.4rem;
+}
+
+.blue {
+    border-radius: 100%;
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: rgb(20, 90, 220);
+    margin-right: 67rem;
+}
+
+.page {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.section1 {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(100px);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.beans {
+    width: 100%;
+    font-family: url("/assets/fonts/Kanit/Kanit-Bold.ttf");
+    font-size: 1rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    padding: 0.3rem;
+}
